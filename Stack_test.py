@@ -1,7 +1,6 @@
 import unittest
 from Stack import Stack
 
-
 class TestStack(unittest.TestCase):
 
     def setUp(self):
@@ -45,7 +44,6 @@ class TestStack(unittest.TestCase):
         self.assertEqual(result, 2)
         self.assertEqual(1 in self.stack, True)
         self.assertEqual(2 in self.stack, False)
-
 
     def test_push_thrice_clear(self):
         self.stack.push(1)
